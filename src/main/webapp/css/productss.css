@@ -1,0 +1,159 @@
+
+  .body{
+ 
+background: linear-gradient(90deg, rgba(59,241,150,1) 0%, rgba(29,203,192,1) 35%, rgba(209,0,255,1) 100%);}
+  .bgimg{
+      width: 100%;
+  }
+  .title{
+      text-align: center;
+  }
+/*css for services border box*/
+.venues{
+    padding: 10px;
+}
+
+.venues .photo{
+    
+    height: 200px;
+    width: 50%;
+    border: 3px solid #73AD21;
+    padding: 0%;
+    margin: 0.5%;
+}
+
+.content .img img{
+    height: 200px;
+    width: 300px;
+}
+
+.content p{
+    margin-left: 15%;
+}
+.photo .content{
+    display: flex;
+  flex-wrap: nowrap;
+  
+}
+.info{
+    margin-left: 2%;
+}
+.cor .container{
+	
+    HEIGHT: 200%;
+    width: 380px;
+}
+
+
+
+@media screen and (min-width: 1250px)
+ { 
+    .venues .part1{
+        display: flex;
+    }    
+
+}
+
+
+@media screen and (max-width: 1250px) { 
+    .part1 .photo{
+  margin: auto;
+  margin-top: 1.5%;
+  width: 100%;
+  border: 3px solid #73AD21;
+  
+    }    
+
+}
+
+
+@media screen and (max-width: 780px) { 
+   .part1 .photo{
+  margin: auto;
+  margin-top: 1.5%;
+  height:fit-content;
+  
+  border: 3px solid #73AD21;
+    }
+    
+    .photo .content{
+       display: block;
+     
+      
+    }
+
+}
+
+
+/*-------------------------------------------------------------------------------------------------------*/
+        .footer{
+        background: #000;
+        color:#8a8a8a;
+        font-size: 14px;
+        padding:16px 0 20px;
+        cursor:pointer;
+        text-align: center;
+    }
+    .footer .f-title{
+        padding: 20px 50px;
+        color: #eee;
+    }
+    .container .f-desc a{
+      font-size: 18px;
+        text-decoration: none;
+        color: #8a8a8a;;
+    }
+    .container .f-desc a:hover{
+        color: rgb(134, 6, 6);
+    }
+    .container .f-desc li{
+        padding: 5px 0;
+        list-style-type: none;
+        display: inline-block;
+        padding: 0 15px;
+    }
+    .icon{
+        width: 100%;
+        clear: both;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .icon a{
+      font-size: 24px;
+        height: 60px;
+        width: 60px;
+        background: whitesmoke;
+        border-radius: 50px;
+       text-align: center;
+        line-height: 60px;
+        margin: 10px;
+    }
+    .icon a i{
+        transition: all 0.3s linear;
+    }
+    .icon a i:hover{
+       transform:scale(1.4);
+    }
+    .fa-facebook{
+        color:#0097e6;
+    }
+    .fa-instagram{
+        color:#e84393;
+    }
+    .fa-linkedin{
+        color:#0097e6;
+    }
+    .fa-youtube{
+        color:#e84118;
+    }
+    .footer hr{
+        border: none;
+        background: #b5b5b5;
+        height: 1px;
+        margin: 20px 0;
+    }
+    
+  
+
+    
